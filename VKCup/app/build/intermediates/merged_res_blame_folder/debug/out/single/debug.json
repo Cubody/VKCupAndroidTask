@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_user_placeholder.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\drawable-xhdpi\\user_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_user_placeholder.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\drawable-mdpi\\user_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_mp_launcher.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-xhdpi\\mp_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_mp_launcher.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-hdpi\\mp_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_mp_launcher.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-xxhdpi\\mp_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_user_placeholder.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\drawable-hdpi\\user_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_mp_launcher.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-mdpi\\mp_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_mp_launcher.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-xxxhdpi\\mp_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_user_placeholder.png.flat",
+        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\drawable-xxhdpi\\user_placeholder.png"
+    }
+]

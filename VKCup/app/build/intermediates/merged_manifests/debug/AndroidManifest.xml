@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uralitsports.vkcup"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <queries>
+
+        <!-- For auth with vk client -->
+        <intent>
+            <action android:name="com.vkontakte.android.action.SDK_AUTH" />
+        </intent>
+
+        <!-- For available browsers request -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="http" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.uralitsports.vkcup.ApplicationEntrance"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.uralitsports.vkcup.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uralitsports.vkcup.UserActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.vk.api.sdk.ui.VKWebViewAuthActivity"
+            android:theme="@style/VK.Transparent" />
+        <activity
+            android:name="com.vk.api.sdk.ui.VKCaptchaActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.vk.api.sdk.ui.VKConfirmationActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.vk.api.sdk.internal.VKInitProvider"
+            android:authorities="com.uralitsports.vkcup.VKInitProvider"
+            android:enabled="@bool/com_vk_sdk_init_provider_enabled"
+            android:exported="false" />
+
+        <meta-data
+            android:name="VKSdkVersion"
+            android:value="3.3.0" />
+        <meta-data
+            android:name="VKSdkVersionCode"
+            android:value="28" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.uralitsports.vkcup.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>
