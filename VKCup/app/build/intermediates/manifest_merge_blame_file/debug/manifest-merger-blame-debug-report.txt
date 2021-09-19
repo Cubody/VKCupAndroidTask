@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="30"
-8-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+8-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+9-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:5:5-80
-11-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:5:22-77
+11-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:5:22-77
 12
 13    <queries>
 13-->[com.vk:android-sdk-core:3.3.0] C:\Users\green\.gradle\caches\transforms-3\2f9cce5441675064ba13a1457399c989\transformed\jetified-android-sdk-core-3.3.0\AndroidManifest.xml:34:5-49:15
@@ -50,64 +50,64 @@
 31-->[com.vk:android-sdk-core:3.3.0] C:\Users\green\.gradle\caches\transforms-3\2f9cce5441675064ba13a1457399c989\transformed\jetified-android-sdk-core-3.3.0\AndroidManifest.xml:52:22-64
 32
 33    <application
-33-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:7:5-34:19
+33-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:7:5-34:19
 34        android:name="com.uralitsports.vkcup.ApplicationEntrance"
-34-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:8:9-44
+34-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:8:9-44
 35        android:allowBackup="false"
-35-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:9:9-36
+35-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:9:9-36
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 36-->[androidx.core:core:1.6.0] C:\Users\green\.gradle\caches\transforms-3\edeb430ac0b0bea9c609d4daffe0d06e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 37        android:debuggable="true"
 38        android:extractNativeLibs="false"
 39        android:icon="@mipmap/ic_launcher_round"
-39-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:10:9-49
+39-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:10:9-49
 40        android:label="@string/app_name"
-40-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:11:9-41
+40-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:11:9-41
 41        android:networkSecurityConfig="@xml/network_security_config"
-41-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:12:9-69
+41-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:12:9-69
 42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:13:9-54
+42-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:13:9-54
 43        android:supportsRtl="true"
-43-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:14:9-35
+43-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:14:9-35
 44        android:testOnly="true"
 45        android:theme="@style/AppTheme" >
-45-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:15:9-40
+45-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:15:9-40
 46        <activity
-46-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:16:9-29:20
+46-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:16:9-29:20
 47            android:name="com.uralitsports.vkcup.LoginActivity"
-47-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:17:13-42
+47-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:17:13-42
 48            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-48-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:18:13-83
+48-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:18:13-83
 49            android:exported="true"
-49-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:19:13-36
+49-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:19:13-36
 50            android:label="@string/app_name"
-50-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:20:13-45
+50-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:20:13-45
 51            android:launchMode="singleInstance"
-51-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:21:13-48
+51-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:21:13-48
 52            android:windowSoftInputMode="adjustResize" >
-52-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:22:13-55
+52-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:22:13-55
 53            <intent-filter>
-53-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:23:13-28:29
+53-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:23:13-28:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:24:17-69
-54-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:24:25-66
+54-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:24:17-69
+54-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:24:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:26:17-77
-56-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:26:27-74
+56-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:26:17-77
+56-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:26:27-74
 57                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
-57-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:27:17-89
-57-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:27:27-86
+57-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:27:17-89
+57-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:27:27-86
 58            </intent-filter>
 59        </activity>
 60        <activity
-60-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:30:9-33:48
+60-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:30:9-33:48
 61            android:name="com.uralitsports.vkcup.UserActivity"
-61-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:31:13-41
+61-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:31:13-41
 62            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-62-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:32:13-83
+62-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:32:13-83
 63            android:label="@string/app_name" />
-63-->C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:33:13-45
+63-->F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:33:13-45
 64        <activity
 64-->[com.vk:android-sdk-core:3.3.0] C:\Users\green\.gradle\caches\transforms-3\2f9cce5441675064ba13a1457399c989\transformed\jetified-android-sdk-core-3.3.0\AndroidManifest.xml:55:9-57:53
 65            android:name="com.vk.api.sdk.ui.VKWebViewAuthActivity"

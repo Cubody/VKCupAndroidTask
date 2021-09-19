@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\green\\.gradle\\caches\\transforms-3\\05d401bccdd1e06b250357a305a89b12\\transformed\\appcompat-1.3.1\\res\\values-land\\values-land.xml",
@@ -33,13 +33,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "41",
-                        "endOffsets": "53"
+                        "endOffsets": "54"
                     },
                     "to": {
                         "startLines": "5",

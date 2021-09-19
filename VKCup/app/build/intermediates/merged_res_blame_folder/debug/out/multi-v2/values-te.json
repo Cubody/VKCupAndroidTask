@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\green\\.gradle\\caches\\transforms-3\\edeb430ac0b0bea9c609d4daffe0d06e\\transformed\\core-1.6.0\\res\\values-te\\values-te.xml",

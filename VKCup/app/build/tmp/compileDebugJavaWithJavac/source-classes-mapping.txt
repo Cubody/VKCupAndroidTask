@@ -1,8 +1,8 @@
-com/uralitsports/vkcup/BuildConfig.java
- com.uralitsports.vkcup.BuildConfig
 com/uralitsports/vkcup/databinding/ItemUserBinding.java
  com.uralitsports.vkcup.databinding.ItemUserBinding
 com/uralitsports/vkcup/databinding/ActivityUserBinding.java
  com.uralitsports.vkcup.databinding.ActivityUserBinding
 com/uralitsports/vkcup/databinding/ActivityLoginBinding.java
  com.uralitsports.vkcup.databinding.ActivityLoginBinding
+com/uralitsports/vkcup/BuildConfig.java
+ com.uralitsports.vkcup.BuildConfig

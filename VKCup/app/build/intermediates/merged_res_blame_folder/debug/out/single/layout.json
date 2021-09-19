@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_user.xml",
-        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\layout\\item_user.xml"
+        "merged": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_user.xml",
+        "source": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\src\\main\\res\\layout\\item_user.xml"
     },
     {
-        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user.xml",
-        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\layout\\activity_user.xml"
+        "merged": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user.xml",
+        "source": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\src\\main\\res\\layout\\activity_user.xml"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\green\\AndroidStudioProjects\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "F:\\Hakatons\\VKCupAndroidTask\\VKCup\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\green\\.gradle\\caches\\transforms-3\\669d7c860d54344646f9dbf62ed52042\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\green\.gradle\caches\transforms-3\e983a23701fb221f92534e229f04beb8\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.vk:android-sdk-api:3.3.0] C:\Users\green\.gradle\caches\transforms-3\b9fef96324652f00ae35736684e9c1eb\transformed\jetified-android-sdk-api-3.3.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.vk:android-sdk-core:3.3.0] C:\Users\green\.gradle\caches\transforms-3\2f9cce5441675064ba13a1457399c989\transformed\jetified-android-sdk-core-3.3.0\AndroidManifest.xml:27:1-79:12
@@ -60,29 +60,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\green\.gradle\caches\transforms-3\00ad26f294d29e2826f3ba551180c094\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.vk:android-sdk-id:3.3.0] C:\Users\green\.gradle\caches\transforms-3\e118e9aec2f169ff161682bd839e1fd9\transformed\jetified-android-sdk-id-3.3.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\green\.gradle\caches\transforms-3\37ad860cea87f0feea3c76fa65143c38\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:7:5-34:19
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:7:5-34:19
 MERGED from [com.vk:android-sdk-api:3.3.0] C:\Users\green\.gradle\caches\transforms-3\b9fef96324652f00ae35736684e9c1eb\transformed\jetified-android-sdk-api-3.3.0\AndroidManifest.xml:9:5-20
 MERGED from [com.vk:android-sdk-api:3.3.0] C:\Users\green\.gradle\caches\transforms-3\b9fef96324652f00ae35736684e9c1eb\transformed\jetified-android-sdk-api-3.3.0\AndroidManifest.xml:9:5-20
 MERGED from [com.vk:android-sdk-core:3.3.0] C:\Users\green\.gradle\caches\transforms-3\2f9cce5441675064ba13a1457399c989\transformed\jetified-android-sdk-core-3.3.0\AndroidManifest.xml:54:5-77:19
@@ -104,61 +104,61 @@ MERGED from [com.vk:android-sdk-id:3.3.0] C:\Users\green\.gradle\caches\transfor
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\green\.gradle\caches\transforms-3\edeb430ac0b0bea9c609d4daffe0d06e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:10:9-49
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:10:9-49
 	android:allowBackup
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:9:9-36
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:9:9-36
 	android:theme
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:15:9-40
 	android:networkSecurityConfig
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:12:9-69
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:12:9-69
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:8:9-44
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:8:9-44
 activity#com.uralitsports.vkcup.LoginActivity
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:16:9-29:20
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:16:9-29:20
 	android:label
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:20:13-45
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:20:13-45
 	android:launchMode
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:21:13-48
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:21:13-48
 	android:windowSoftInputMode
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:22:13-55
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:22:13-55
 	android:exported
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:19:13-36
 	android:configChanges
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:18:13-83
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:18:13-83
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:17:13-42
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:17:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.MULTIWINDOW_LAUNCHER
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:23:13-28:29
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:23:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:26:27-74
 category#android.intent.category.MULTIWINDOW_LAUNCHER
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:27:17-89
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:27:17-89
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:27:27-86
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:27:27-86
 activity#com.uralitsports.vkcup.UserActivity
-ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:30:9-33:48
+ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:30:9-33:48
 	android:label
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:33:13-45
 	android:configChanges
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:32:13-83
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:32:13-83
 	android:name
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml:31:13-41
 uses-sdk
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\green\.gradle\caches\transforms-3\e983a23701fb221f92534e229f04beb8\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\green\.gradle\caches\transforms-3\e983a23701fb221f92534e229f04beb8\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.vk:android-sdk-api:3.3.0] C:\Users\green\.gradle\caches\transforms-3\b9fef96324652f00ae35736684e9c1eb\transformed\jetified-android-sdk-api-3.3.0\AndroidManifest.xml:5:5-7:41
@@ -271,16 +271,16 @@ MERGED from [com.vk:android-sdk-id:3.3.0] C:\Users\green\.gradle\caches\transfor
 MERGED from [com.vk:android-sdk-id:3.3.0] C:\Users\green\.gradle\caches\transforms-3\e118e9aec2f169ff161682bd839e1fd9\transformed\jetified-android-sdk-id-3.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\green\.gradle\caches\transforms-3\37ad860cea87f0feea3c76fa65143c38\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\green\.gradle\caches\transforms-3\37ad860cea87f0feea3c76fa65143c38\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\green\AndroidStudioProjects\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		ADDED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Hakatons\VKCupAndroidTask\VKCup\app\src\main\AndroidManifest.xml
 queries
 ADDED from [com.vk:android-sdk-core:3.3.0] C:\Users\green\.gradle\caches\transforms-3\2f9cce5441675064ba13a1457399c989\transformed\jetified-android-sdk-core-3.3.0\AndroidManifest.xml:34:5-49:15
 intent#action:name:com.vkontakte.android.action.SDK_AUTH

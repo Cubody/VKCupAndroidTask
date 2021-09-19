@@ -12,12 +12,19 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import com.uralitsports.vkcup.models.VKGroup
 import com.uralitsports.vkcup.models.VKUser
 import com.uralitsports.vkcup.requests.VKUsersCommand
 import com.vk.api.sdk.VK
 import com.vk.api.sdk.VKApiCallback
+import com.vk.sdk.api.base.dto.BaseUserGroupFields
 import com.vk.sdk.api.friends.FriendsService
 import com.vk.sdk.api.friends.dto.FriendsGetFieldsResponse
+import com.vk.sdk.api.groups.GroupsService
+import com.vk.sdk.api.groups.dto.GroupsFields
+import com.vk.sdk.api.groups.dto.GroupsGetObjectExtendedResponse
+import com.vk.sdk.api.groups.dto.GroupsGetRequestsFieldsResponse
+import com.vk.sdk.api.groups.dto.GroupsGetResponse
 import com.vk.sdk.api.users.dto.UsersFields
 
 class UserActivity: Activity() {
@@ -35,6 +42,17 @@ class UserActivity: Activity() {
         requestUsers()
 
         requestFriends()
+        window.decorView.setOnTouchListener(object :SwipeListener(this){
+            override fun onSwipeRight() {
+                super.onSwipeRight()
+                requestFriends()
+            }
+
+            override fun onSwipeLeft() {
+                super.onSwipeLeft()
+                requestGroups()
+            }
+        })
     }
 
     private fun requestUsers() {
@@ -62,6 +80,32 @@ class UserActivity: Activity() {
                 Log.e(TAG, error.toString())
             }
         })
+    }
+
+    private fun requestGroups() {
+        val fields = listOf(GroupsFields.CROP_PHOTO)
+        VK.execute(
+            GroupsService().groupsGetExtended(fields = fields),
+            object : VKApiCallback<GroupsGetObjectExtendedResponse> {
+                override fun success(result: GroupsGetObjectExtendedResponse) {
+                    val groups = result.items
+                    if (!isFinishing && groups.isNotEmpty()) {
+                        val vkGroups = groups.map { group ->
+                            VKGroup(
+                                id = group.id?.value ?: 0,
+                                name = group.name ?: "",
+                                photo = group.photo200 ?: "",
+                                deactivated = group.deactivated != null
+                            )
+                        }
+                        showGroups(vkGroups)
+                    }
+                }
+
+                override fun fail(error: Exception) {
+                    Log.e(TAG, error.toString())
+                }
+            })
     }
 
     private fun requestFriends() {
@@ -100,6 +144,18 @@ class UserActivity: Activity() {
         recyclerView.adapter = adapter
     }
 
+    private fun showGroups(groups: List<VKGroup>) {
+        val recyclerView = findViewById<RecyclerView>(R.id.friendsRV)
+        val friendsText = findViewById<TextView>(R.id.friends_count)
+        friendsText.text = "У вас ${groups.count()} групп:"
+        recyclerView.layoutManager = androidx.recyclerview.widget.GridLayoutManager(this, 3)
+
+        val adapter = GroupsAdapter()
+        adapter.setData(groups)
+
+        recyclerView.adapter = adapter
+    }
+
     private fun createOnClickListener(userId: Long) = View.OnClickListener {
         VK.urlResolver.open(it.context, "https://vk.com/id$userId")
     }
@@ -123,8 +179,44 @@ class UserActivity: Activity() {
         override fun getItemCount() = friends.size
     }
 
-    inner class UserHolder(context: Context?): RecyclerView.ViewHolder(
+    inner class GroupsAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+        private val groups: MutableList<VKGroup> = arrayListOf()
+
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)
+                = GroupHolder(parent.context)
+
+        override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+            (holder as GroupHolder).bind(groups[position])
+        }
+
+        fun setData(groups: List<VKGroup>) {
+            this.groups.clear()
+            this.groups.addAll(groups)
+            notifyDataSetChanged()
+        }
+
+        override fun getItemCount() = groups.size
+    }
+
+    inner class GroupHolder(context: Context?): RecyclerView.ViewHolder(
             LayoutInflater.from(context).inflate(R.layout.item_user, null)) {
+        private val avatarIV: ImageView = itemView.findViewById(R.id.avatarIV)
+        private val nameTV: TextView = itemView.findViewById(R.id.nameTV)
+
+        fun bind(group: VKGroup) {
+            nameTV.text = "${group.name}"
+            nameTV.setOnClickListener(createOnClickListener(group.id))
+            if (!TextUtils.isEmpty(group.photo)) {
+                Picasso.get().load(group.photo).error(R.drawable.user_placeholder).into(avatarIV)
+            } else {
+                avatarIV.setImageResource(R.drawable.user_placeholder)
+            }
+            avatarIV.setOnClickListener(createOnClickListener(group.id))
+        }
+    }
+
+    inner class UserHolder(context: Context?): RecyclerView.ViewHolder(
+        LayoutInflater.from(context).inflate(R.layout.item_user, null)) {
         private val avatarIV: ImageView = itemView.findViewById(R.id.avatarIV)
         private val nameTV: TextView = itemView.findViewById(R.id.nameTV)
 
