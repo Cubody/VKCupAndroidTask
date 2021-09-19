@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Войти через ВКонтакте</string>
+    <string name="logout">Выйти</string>
+    <string name="share_to_wall">Отправить на стену</string>
+    <string name="message_hint">Ваше сообщение</string>
+    <string name="wall_ok">Запись опубликована</string>
+    <string name="friends">Ваши друзья:</string>
+    <string name="message_connection_error">Ошибка подключения</string>
+    <string name="message_unknown_error">Неизвестная ошибка, попробуйте позже</string>
+    <string name="app_name" translatable="false">VKCup</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
